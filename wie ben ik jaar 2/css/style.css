@@ -1,0 +1,117 @@
+/* Olaf Touw,
+	Da Vinci College Gorinchem, Applicatie Ontwikkeling niveau 4.
+*/
+
+
+* {		/* "*" staat voor alle elementen */
+	margin: 0;
+	padding: 0;
+}
+body{		/* "body" staat voor de gehele body */
+	background-image: url(../img/bg2.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	line-height: 1.7em; font-family: 'Roboto', sans-serif;
+	color: #5e5959;
+}
+
+
+/*-------------------------------------------------------------------------------NAV------------------------------------------------------------------------------------------------*/
+nav{		/* "nav" staat voor de navigatie */
+	height: auto;
+	width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 60px;
+	margin-top: 45px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+a{		/* "a" staat voor dat de tekst een link word */
+	font-family: 'Roboto', sans-serif;
+	color: #5e5959;
+	text-decoration: none;
+}
+i{		/* "i" staat voor icon die ik doormiddel van Fontawesome heb toegepast */
+	color: #5e5959;
+}
+li.button{		/* "li" staat voor de list */
+	background-color: rgb(193, 232, 232,.8);
+	border-radius: 5px 5px 5px;
+	display: inline-block;
+	margin-left: 22px;
+}
+li.button:hover{		/* "hover" staat voor als je met de muis over de list button heen gaat dat hij een andere kleur krijgt */
+	background-color: rgb(193, 232, 232,.4);
+	border-radius: 5px 5px 5px;
+	-webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+/*-------------------------------------------------------------------------------NAV END--------------------------------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------------------HEADER---------------------------------------------------------------------------------------------*/
+header.tekst{		/* "header" staat voor de header */
+	width: 780px;
+	margin: 0 auto;
+	background-color: rgb(193, 232, 232,.8);
+	text-decoration: none;
+	padding: 0 10px;
+	margin-bottom: 40px;
+	border-radius: 10px;
+	background-opacity: 0.4;
+}
+h1{			/* "h1" staat voor het hoofdstuk 1 */
+	text-align: center;
+	padding: 10px;
+	padding-bottom: 30px;
+}
+/*-------------------------------------------------------------------------------HEADER END-----------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------------------MAIN/ARTICLE---------------------------------------------------------------------------------------*/
+main.tekst{		/* "main" staat voor het gehele main*/
+	width: 780px;
+	margin: 0 auto;
+	background-color: rgb(193, 232, 232,.8);
+	text-decoration: none;
+	padding: 0 10px;
+	border-radius: 10px;
+}
+article.tekst{		/* "article" staat voor de gehele article */
+	width: 780px;
+	margin: 0 auto;
+	background-color: rgb(193, 232, 232,.8);
+	text-decoration: none;
+	padding: 0 10px;
+	margin-bottom: 5px;
+	border-radius: 10px;
+	height: 180px;
+}
+li.personalia{		/* "li" staat voor de list */
+	padding-top: 7px;
+	margin-left: 22px;
+}
+img{	/* "img" staat voor image */
+	padding-top: 10px;
+	padding-left: 15px;
+	float: right;
+}
+/*-------------------------------------------------------------------------------MAIN/ARTICLE END-----------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------------------FOOTER---------------------------------------------------------------------------------------------*/
+footer{		/* "footer" is de footer onder aan de pagina */
+	width: 780px;
+	margin: 0 auto;
+	background-color: rgb(193, 232, 232,.8);
+	text-decoration: none;
+	padding: 0 10px;
+	text-align: center;
+	position: fixed;
+	bottom: 20px;
+	left: 0;
+	right: 0;
+	border-radius: 10px;
+}
+/*-------------------------------------------------------------------------------FOOTER END------------------------------------------------------------------------------------------*/
